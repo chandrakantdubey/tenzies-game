@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/* background: #59E391; */
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Karla;
+  text-align: center;
+  gap: 2em;
+}
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 460px;
+  height: 460px;
+  border: 20px solid #0b2434;
+  text-align: center;
+  padding: 25px;
+}
+.container h1,
+.container p.tenzies-text {
+  margin: 0;
+  color: #4a4e74;
+}
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 8px;
+  color: #2b283a;
+}
+.container p.tenzies-text {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.btn {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #ffffff;
+  background: #5035ff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  padding: 0.5em 2em;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+
+.dice {
+  width: 3em;
+  height: 3em;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.dice p {
+  margin: 0;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 24px;
+  text-align: center;
+  color: #2b283a;
+}
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 17px;
+  margin: 25px 0;
+}
+
+.high-score {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5em;
+}
